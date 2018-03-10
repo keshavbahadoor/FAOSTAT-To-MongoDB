@@ -93,7 +93,6 @@ class DataFetch:
         extracted data.
         :return:
         """
-        return
         try:
             self.log_service.log('Cleaning up files....')
             os.remove(config.FAODATA_BULK_FILENAME)
