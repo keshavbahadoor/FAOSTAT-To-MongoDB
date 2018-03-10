@@ -7,3 +7,8 @@ BULK_FAOSTAT_DATA = 'http://fenixservices.fao.org/faostat/static/bulkdownloads/F
 TEMP_DATA_DIR = '_temp_data'
 FAODATA_BULK_FILENAME = 'faodata.zip'
 DATA_PACKAGES_FILENAME = 'data_packages.json'
+
+MONGO_IP = 'localhost'
+MONGO_PORT = 27017
+MONGO_DB_NAME = 'faodata'
+

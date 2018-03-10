@@ -1,7 +1,14 @@
 import json
 from pprint import pprint
+import sys
+import os
+import config
+from core.LogService import LogService
+from core.DataFetch import DataFetch
+from core.MongoService import MongoService
 
-data = json.load(open('data_packages.json'))
+log_service = LogService(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'logs', config.LOG_FILE_NAME))
 
-print data[0]['tablename']
-print data[0]['filename']
+mongo = MongoService(log_service)
+mongo.print_collection()
+

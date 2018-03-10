@@ -1,10 +1,10 @@
 [
   {
-    "filename": "Prices_Monthly_E_All_Data_(Normalized)",
-    "tablename": "crop_price_monthly"
+    "filename": "Trade_LiveAnimals_E_All_Data_(Normalized)",
+    "collectionname": "livestock_all"
   },
   {
-    "filename": "Trade_LiveAnimals_E_All_Data_(Normalized)",
-    "tablename": "livestock_all"
+    "filename": "Prices_Monthly_E_All_Data_(Normalized)",
+    "collectionname": "crop_price_monthly"
   }
 ]
