@@ -10,5 +10,7 @@ DATA_PACKAGES_FILENAME = 'data_packages.json'
 
 MONGO_IP = 'localhost'
 MONGO_PORT = 27017
+MONGO_USER = ''
+MONGO_PASS = ''
 MONGO_DB_NAME = 'faodata'
 
