@@ -7,7 +7,10 @@ import json
 class MongoService:
 
     def __init__(self, log_service):
-        self.client = MongoClient(config.MONGO_IP, config.MONGO_PORT)
+        self.client = MongoClient(config.MONGO_IP,
+                                  config.MONGO_PORT,
+                                  username=config.MONGO_USER,
+                                  password=config.MONGO_PASS)
         self.log_service = log_service
 
     def print_collection(self):
