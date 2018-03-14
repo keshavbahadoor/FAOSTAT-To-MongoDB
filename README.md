@@ -32,9 +32,7 @@ Make sure you have pymongo installed
 
 ```
 pip install pymongo 
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+``` 
 
 ## Configuring what to import
 
