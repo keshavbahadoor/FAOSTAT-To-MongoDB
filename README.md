@@ -58,7 +58,10 @@ Data is imported using the command line argument import_data
 ```
 python faostat_to_mongodb import_data
 ```
- 
+
+## Logs
+Logs are kept on a rotation basis and can be checked for cases where data is missing or corrupted. Instances of incorrect character encoding are usually cause for issues. 
+Log rotation can be configured in config.py. 
 
 ## Contributing
 
