@@ -40,7 +40,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 The data_packages.json file contains a map configuration for available data zip files, and mongodb collections for importing int. This can be specified to your requirements.
  
-```
+```json 
 [
   {
     "filename": "Trade_LiveAnimals_E_All_Data_(Normalized)",
@@ -51,11 +51,11 @@ The data_packages.json file contains a map configuration for available data zip 
     "collectionname": "crop_price_monthly"
   }
 ]
-
+```
 
 ## Importing Data 
 
-Data is imported using the command line argument 'import_data' 
+Data is imported using the command line argument import_data
 
 ```
 python faostat_to_mongodb import_data
@@ -64,11 +64,8 @@ python faostat_to_mongodb import_data
 
 ## Contributing
 
-Pull requests are welcomed :)
+Pull requests are welcomed :) 
 
-## Versioning
-
-0.1
 
 ## License
 
