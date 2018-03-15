@@ -1,6 +1,6 @@
 # FAOSTAT To MongoDB
 
-Simple, configurable, extendable data importer that downloads and uploads FAO data into a mongodb instance. 
+Simple, configurable, extendable data importer that imports FAO data into a mongodb instance. 
 
 ## Why is this needed?
 
