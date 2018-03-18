@@ -4,7 +4,7 @@ Simple, configurable, extendable tool that imports FAO data into a mongodb insta
 
 ## Why is this needed?
 
-FAOSTAT has an existing API. The current documentation, however, leaves much to be desired. I was never able to utilize the API to my requirements. The API mostly kept returning erroneous responses despite being correct as per the docs. 
+FAOSTAT has an existing API. 
 This tool downloads the available bulk data dump from FAODATA (the URL is configurable) and then extracts, cleans and import data according to your specified configuration. 
 
 ## Getting Started
